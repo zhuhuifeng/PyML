@@ -45,6 +45,7 @@ class KMeans(BaseEstimator):
         self.clusters = [[] for _ in range(self.K)]
         self.centroids = []
         self.init = init
+        self.test = []
 
     def _initialize_cetroids(self, init):
         """Set the initial centroids."""
