@@ -48,4 +48,4 @@ def regression():
 
 if __name__ == '__main__':
     classification()
-    # regression()
+    regression()
